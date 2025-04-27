@@ -13,8 +13,9 @@ body{
 .svgString{
     margin: 0 auto;
     width: 100%;
-    background: #170872;
+    display: grid;
+    place-items: center;
 }
-.svgString svg{
+/* .svgString svg{
     width: 1000px;
-}
+} */
