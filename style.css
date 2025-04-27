@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+    color: #ffffff;
+    /* display: grid;
+    place-items: center;
+    height: 100vh; */
+}
+.svgString{
+    margin: 0 auto;
+    width: 100%;
+    background: #170872;
+}
+.svgString svg{
+    width: 1000px;
+}
