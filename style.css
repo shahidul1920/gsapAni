@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary: black;
+    --secndary: white;
+    --text:red;
 }
 body{
     background-color: #181818;
@@ -19,3 +25,41 @@ body{
 /* .svgString svg{
     width: 1000px;
 } */
+
+
+header{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: var(--primary);
+    position: sticky;
+}
+
+.content{
+    width: 1720px;
+    background: green;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.gridlayout{
+    width: 1720px;
+    margin: 0 auto;
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.gridlayout div{
+    height: 200px;
+    background: var(--text);
+    margin: 20px;
+    display: grid;
+    place-items: center;
+}
+.gridlayout div:hover{
+    background: red;
+    transition: all 0.5s ease-in-out;
+}
